@@ -16,9 +16,9 @@
 
 .bilderna{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    width: 90vw;
+    width: 100vw;
     
 }
 .bilderna img{
@@ -26,15 +26,25 @@
     display: block;
     margin: auto;
     margin-top: 150px;
+    border-radius: 50px;
+    border: 10px solid aliceblue;
+    box-shadow: 10px 10px 10px black;
+    
+     
 }
 
 
 .text{
     text-align: center;
+    box-sizing: border-box;
+    border: 3px solid;
+    width: 50%;
+    margin: auto;
     margin-top: 140px;
+    padding: 10px;
 }
 
 .länk a:visited{
-    color: aqua;
-
+    color: black;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 }
