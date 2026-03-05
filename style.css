@@ -35,13 +35,14 @@
 
 
 .text{
-    text-align: center;
+
     box-sizing: border-box;
     border: 3px solid;
     width: 50%;
     margin: auto;
     margin-top: 140px;
     padding: 10px;
+    grid-column: 1 / 4;
 }
 
 .texterna{
